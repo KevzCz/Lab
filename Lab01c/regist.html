@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Đăng Ký</title>
+</head>
+<body>
+    <h1>Đăng Ký</h1>
+    <form action="https://www.google.com" method="POST">
+        <label for="hoten">Họ và Tên:</label>
+        <input type="text" id="hoten" name="hoten" required>
+        <br><br>
+        <label for="maso">Mã Số Sinh Viên:</label>
+        <input type="text" id="maso" name="maso" required>
+        <br><br>
+        <label for="ngaysinh">Ngày Sinh:</label>
+        <input type="date" id="ngaysinh" name="ngaysinh">
+        <br><br>
+        <label>Chuyên Ngành:</label>
+        <br>
+        <input type="radio" id="cnpm" name="chuyennganh" value="CNPM">
+        <label for="cnpm">CNPM</label>
+        <input type="radio" id="httt" name="chuyennganh" value="HTTT">
+        <label for="httt">HTTT</label>
+        <input type="radio" id="anninhmang" name="chuyennganh" value="AnNinhMang">
+        <label for="anninhmang">An Ninh Mạng</label>
+        <br><br>
+        <label>Sở Thích:</label>
+        <br>
+        <input type="checkbox" id="vietchuongtrinh" name="sothich" value="ViếtChươngTrình">
+        <label for="vietchuongtrinh">Viết Chương Trình</label>
+        <br>
+        <input type="checkbox" id="phantichcsdl" name="sothich" value="PhanTichCSDL">
+        <label for="phantichcsdl">Phân Tích CSDL</label>
+        <br>
+        <input type="checkbox" id="xaydungsodomaing" name="sothich" value="XayDungSoDoMang">
+        <label for="xaydungsodomaing">Xây Dựng Sơ Đồ Mạng</label>
+        <br><br>
+        <label for="mausac">Màu Sắc Yêu Thích:</label>
+        <input type="color" id="mausac" name="mausac">
+        <br><br>
+        <label for="hinhdaidien">Hình Đại Diện:</label>
+        <input type="file" id="hinhdaidien" name="hinhdaidien">
+        <br>
+        <br><br>
+        <label for="tendangnhap">Tên Đăng Nhập Web Trường:</label>
+        <input type="text" id="tendangnhap" name="tendangnhap" required>
+        <br><br>
+        <label for="matkhaudangnhap">Mật Khẩu Đăng Nhập Web Trường:</label>
+        <input type="password" id="matkhaudangnhap" name="matkhaudangnhap" required>
+        <br>
+        <br><br>
+        <input type="submit" value="Gửi Dữ Liệu Về Máy Chủ">
+    </form>
+</body>
+</html>
